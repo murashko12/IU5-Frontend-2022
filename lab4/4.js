@@ -17,7 +17,9 @@
 */
 
 function get1DArray(arr) {
-    //code here
+    arr.flat(Infinity)
+    // .flat(derth) возвращает новый массив, в котором все элементы вложенных подмассивов были рекурсивно "подняты" на указанный уровень depth.
+    // Infinity используется если глубина вложенности массива неизвестна
 }
 
 module.exports = get1DArray;
