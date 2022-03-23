@@ -8,6 +8,7 @@
  */
 
 function rle(str) {
+    
     str += ' '
     let str_result = str[0]
     let count = 1
@@ -22,9 +23,7 @@ function rle(str) {
             str_result += str[i]
         }
     }
-    
     return str_result.slice(0, str_result.length - 1);
-    
 }
 
 module.exports = rle;

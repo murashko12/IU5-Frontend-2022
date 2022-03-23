@@ -29,16 +29,13 @@ function checkBrackets(str) {
         // проверяем соответствие закр. ск. с откр. cк.
         close_index = close.indexOf(str_arr[i])
         if (close_index !== -1) {
-            // про
             open_index = check.pop()
             if (close_index !== open_index) {
                 return false
             }
         }
     }
-
     return check.length === 0
-    
 }
 
 module.exports = checkBrackets;

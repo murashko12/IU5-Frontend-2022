@@ -6,6 +6,7 @@
  * "мир" -> false
  * "тот" -> true
  */
+
 function isPalindrome(str) {
 
     return str == str.split('').reverse().join('');
