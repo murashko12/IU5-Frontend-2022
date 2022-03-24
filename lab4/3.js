@@ -23,6 +23,7 @@ function rle(str) {
             str_result += str[i]
         }
     }
+    
     return str_result.slice(0, str_result.length - 1);
 }
 
