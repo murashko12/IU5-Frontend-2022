@@ -5,8 +5,19 @@
  * Примеры:
  * ['мир', 'Рим', 'сирота', 'Ариост', 'мри', 'пва', 'лор', 'авп']; -> [["мир", "Рим", "мри"], ["сирота", "Ариост"], ["пва", "авп"]]
  */
+
 function getAnagramms(arr) {
-    //code here
+    let key
+    let obj = {}
+    for (let el of arr) {                      
+        key = el.toLowerCase().split('').sort().join('');
+        if (obj[key]) {                  
+            obj[key] = [...obj[key], el]
+        } else {
+            obj[key] = [el]
+        }
+    }
+    return Object.keys(obj).map(value => obj[value]);
 }
 
 module.exports = getAnagramms;
