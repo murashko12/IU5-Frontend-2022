@@ -18,7 +18,10 @@ function checkBrackets(str) {
     let open_index          // индекс откр. 
     let close_index         // индекс закр.
 
+<<<<<<< HEAD
+=======
     
+>>>>>>> af7e95b9d0ec764aa2d9bf75e0eaba81cc22060f
     for(let i = 0; i < str_arr.length; i++) {
         
         open_index = open.indexOf(str_arr[i])
@@ -29,12 +32,20 @@ function checkBrackets(str) {
         // проверяем соответствие закр. ск. с откр. cк.
         close_index = close.indexOf(str_arr[i])
         if (close_index !== -1) {
+<<<<<<< HEAD
+            open_index === check.pop()
+=======
             open_index = check.pop()
+>>>>>>> af7e95b9d0ec764aa2d9bf75e0eaba81cc22060f
             if (close_index !== open_index) {
                 return false
             }
         }
     }
+<<<<<<< HEAD
+
+=======
+>>>>>>> af7e95b9d0ec764aa2d9bf75e0eaba81cc22060f
     return check.length === 0
 }
 
