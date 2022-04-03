@@ -1,0 +1,27 @@
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.counter {    
+    width: 200px;
+    border: 1px solid blue;
+    height: 50px;
+}
+
+#space {
+    width: 800px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 800px;
+    position: relative;
+}
+
+#ball {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(39, 12, 156);
+    position: absolute; 
+}
