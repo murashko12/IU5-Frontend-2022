@@ -8,6 +8,10 @@
  */
 
 function rle(str) {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> af7e95b9d0ec764aa2d9bf75e0eaba81cc22060f
     str += ' '
     let str_result = str[0]
     let count = 1
@@ -22,6 +26,10 @@ function rle(str) {
             str_result += str[i]
         }
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> af7e95b9d0ec764aa2d9bf75e0eaba81cc22060f
     return str_result.slice(0, str_result.length - 1);
 }
 
