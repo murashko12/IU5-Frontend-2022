@@ -9,7 +9,6 @@
  * ([)]()<> --> false
  * [(<>)] --> true
  */
-
 function checkBrackets(str) {
     let str_arr = str.split('')
     let open = ['[','(','<']
