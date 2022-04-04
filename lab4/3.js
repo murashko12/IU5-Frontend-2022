@@ -6,7 +6,6 @@
  * rle('AAAB') === 'A3B'
  * rle('BCCADDEEEBB') === 'BC2AD2E3B2'
  */
-
 function rle(str) {
     
     str += ' '
